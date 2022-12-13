@@ -105,7 +105,7 @@ ponto.addEventListener("click", function () {
         igualPressionado = false
     }
     let start = 0
-    for (let i = display.textContent.length - 1; i >= 0; i++) {
+    for (let i = display.textContent.length - 1; i >= 0; i--) {
         if ("+-x÷".includes(display.textContent[i])) {
             start = i + 1
             break
